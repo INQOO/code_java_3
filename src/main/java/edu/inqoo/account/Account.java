@@ -8,4 +8,6 @@ public interface Account {
 
     void withdraw(BigDecimal amountToWithdraw);
 
+    void showHistory();
+
 }
