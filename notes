@@ -1,6 +1,6 @@
 Stworzyć nową klasę HistoryAccount implementującą interface Account,
 która posiada kolekcję obiektów Transaction
-Obiekt Transaction składa się z typu transakcji,
+Obiekt Transaction składa się z typu transakcji(deposit, withdraw),
 czasu wykonania (data + godzina), kwota transakcji
 W obiekcie Transaction odpowiednio nadpisać metodę toString()
 by zwracało informacje o transakcji
