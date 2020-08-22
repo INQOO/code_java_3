@@ -1,0 +1,9 @@
+Stworzyć nową klasę HistoryAccount implementującą interface Account,
+która posiada kolekcję obiektów Transaction
+Obiekt Transaction składa się z typu transakcji,
+czasu wykonania (data + godzina), kwota transakcji
+W obiekcie Transaction odpowiednio nadpisać metodę toString()
+by zwracało informacje o transakcji
+Klasy NormalAccount i HistoryAccount muszą zaimplementować metodę showHistory()
+NormalAccount -> nie posiada historii
+HistoryAccount -> wyświetlić historię transakcji;
