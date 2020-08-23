@@ -15,5 +15,10 @@ public class NormalAccount implements Account {
             balance = balance.subtract(amountToWithdraw);
         }
     }
+
+    @Override
+    public void showHistory() {
+        System.out.println("No history avaible");
+    }
 }
 
