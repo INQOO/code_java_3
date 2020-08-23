@@ -15,5 +15,9 @@ public class NormalAccount implements Account {
             balance = balance.subtract(amountToWithdraw);
         }
     }
+
+    public void showHistory() {
+
+    }
 }
 
